@@ -1,0 +1,14 @@
+.button{
+    display: inline-block;
+    background-color: $white;
+    padding: 1rem 1.5rem;
+    border-radius: 4rem;
+    color: $first-color;
+    font-weight: $font-semi-bold;
+    transition: background .3s, color .3s;
+
+    &:hover{
+        background-color: $first-color;
+        color: $white;
+    }
+}

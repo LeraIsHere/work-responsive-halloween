@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Poppins:wght@400;500;600;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family:$body-font;
+    font-size: $normal-fs;
+    background-color: $body-color;
+    color: $white;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container{
+    max-width: 1024px;
+    margin-inline: 1.5rem;
+    //margin-left: auto;
+    //margin-right: auto;
+  }
+
+  .grid{
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .section {
+    padding-block: 5rem 1.5rem;
+  }
+  
+  .section__title {
+    font-size: $h1-fs;
+    font-family: $second-font;
+    font-weight: initial;
+    line-height: 130%;
+    color: $first-color;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+  
+  .main {
+    overflow: hidden; /* For animation ScrollReveal */
+  }
+
+.bg-header{
+  background: $body-color;
+  box-shadow: 0 4px 8px hsla(22, 10%, 2%, .4);
+}
